@@ -69,7 +69,8 @@ return (function(user)
     local stroke = ins("UIStroke", tab3b)
     stroke.Color = c3(x3(1))
     stroke.ApplyStrokeMode = "Border"
-    
+
+
     local tab1 = ins("ImageLabel", main)
     tab1.AnchorPoint = v2(.5, .5)
     tab1.Size = udim2(1, 0, 1, 0)
